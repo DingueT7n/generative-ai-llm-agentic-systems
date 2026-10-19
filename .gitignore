@@ -1,0 +1,29 @@
+# Python and Jupyter runtime artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+# API keys, session credentials and outputs from experimental browsers
+*.pem
+*.key
+capture_ecran.png
+screenshot*.png
+# Instructor references are included locally for study but not for GitHub redistribution.
+_private-course-reference/
+# Downloaded ML artifacts
+models/
+.cache/
+*.h5
+*.keras
